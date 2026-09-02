@@ -1,0 +1,64 @@
+{
+  "theme": "dark",
+  "is_premium": false,
+  "username": "dan",
+  "tasks": [],
+  "notes": [],
+  "shopping": [],
+  "diary": [],
+  "habits": [],
+  "budget": {
+    "income": 0,
+    "expenses": 0,
+    "log": []
+  },
+  "spots": [],
+  "location_history": [],
+  "spot_reminders": [],
+  "emergency_contact": "",
+  "passwords": {},
+  "memory": {},
+  "workouts": [],
+  "sleep_log": [],
+  "medicine_log": [],
+  "recordings": [],
+  "conversations": [
+    {
+      "you": "Gamemaster",
+      "dan": "I didn't catch that. Type 'help' to see what I can do.",
+      "date": "2026-09-01 21:18"
+    },
+    {
+      "you": "createroutine leaving work: silent | navigate home",
+      "dan": "Routine 'leaving work' saved with 2 step(s): silent, navigate home. Trigger it by saying 'leaving work' or 'runroutine leaving work'.",
+      "date": "2026-09-01 21:18"
+    },
+    {
+      "you": "routines",
+      "dan": "Saved routines:\n- leaving work (2 step(s))",
+      "date": "2026-09-01 21:18"
+    },
+    {
+      "you": "runroutine leaving work",
+      "dan": "Running 'leaving work':\n1. silent -> Silent mode on (ringer muted).\n2. navigate home -> Starting navigation to home...",
+      "date": "2026-09-01 21:18"
+    },
+    {
+      "you": "leaving workhelp",
+      "dan": "I didn't catch that. Type 'help' to see what I can do.",
+      "date": "2026-09-01 22:18"
+    }
+  ],
+  "monitored_sites": [],
+  "briefing_time": null,
+  "routines": {
+    "leaving work": {
+      "name": "leaving work",
+      "steps": [
+        "silent",
+        "navigate home"
+      ]
+    }
+  },
+  "nlu_api_key": null
+}
