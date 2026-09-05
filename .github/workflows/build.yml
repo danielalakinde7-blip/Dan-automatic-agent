@@ -11,15 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build with Buildozer
-        uses: ArtemSBulgakov/buildozer-action@v1
-        id: buildozer
-        with:
-          command: buildozer android debug
-          buildozer_version: stable
+      - name: Build with Buildozer (official Docker image)
+        run: |
+          docker run --rm -v "$(pwd)":/home/user/hostcwd kivy/buildozer android debug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: dan-automation-apk
-          path: ${{ steps.buildozer.outputs.filename }}
+          path: bin/*.apk
